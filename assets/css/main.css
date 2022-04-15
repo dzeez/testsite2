@@ -211,7 +211,9 @@ input, select, textarea {
 	}
 
 	p {
-		text-align: justify;
+		/* text-align: justify; */
+		hyphens: auto;
+		/* padding: 0.25em 0 0.5em 0; */
 	}
 
 	header {
@@ -1601,6 +1603,7 @@ input, select, textarea {
 		padding-top: 1em;
 		list-style: inside;
 			list-style-type: "✓ ";
+			/* list-style-type: ; */
 			text-align: left;
 		}
 
@@ -1657,6 +1660,10 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		/* display: flex; */
+		/* justify-content: flex-end; */
+		/* max-width: 100%; */
+		/* align-items: flex-end; */
 	}
 
 		ul.menu li {
@@ -1665,13 +1672,58 @@ input, select, textarea {
 			border-left: solid 1px #e6e6e6;
 			padding: 0 0 0 0.5em;
 			margin: 0 0 0 0.5em;
+			/* align-items: flex-end; */
 		}
-
-			ul.menu li:first-child {
-				border-left: 0;
-				padding-left: 0;
-				margin-left: 0;
-			}
+		
+		ul.menu li:first-child, #navbar menu>li:first-child {
+			border-left: 0;
+			padding-left: 0;
+			margin-left: 0;
+		}
+		
+		/* dsd */
+		#navbar {
+			/* border: 1px solid black; */
+			display: inline-flex;
+			flex-wrap: wrap;
+			/* background-color: rgba(0, 0, 0, 0.177); */
+			/* justify-content: flex-end; */
+			position: absolute;
+			z-index: 3;
+			top: 0;
+			left: 0;
+			margin: 0;
+			width: 100%;
+			padding-top: 0.5rem;
+			padding-right: 1.3rem;
+			list-style: none;
+			font-size: 1.3rem;
+			color: #fff;
+		}
+		#navbar menu {
+			justify-content: flex-end;
+		}
+		#navbar a {
+			border-bottom: none;
+			font-weight: 400;
+			transition: color 0.2s ease-in-out;
+		}
+		#navbar a:hover {
+			color: rgb(83, 83, 83);;
+		}
+		#navbar li {
+			/* display: inline-block; */
+			/* line-height: 1em; */
+			border-left: solid 1px #e6e6e6;
+			padding: 0 0 0 0.5em;
+			margin: 0 0 0 0.5em;
+		}
+		#navbar h1 {
+			align-self: center;
+			justify-self: flex-start;
+			/* display: none; */
+		}
+		/* #navbar */
 
 /* Actions */
 
@@ -2203,6 +2255,7 @@ input, select, textarea {
 	#header {
 		position: relative;
 		margin: 0;
+		background-color: #3a4e59;
 		background-image: url("images/overlay.png"), url("../../images/long-exposure-lights_chuttersnap-eH_ftJYhaTY-unsplash.jpg");
 		background-size: auto, cover;
 		background-position: top left, center center;
@@ -2259,9 +2312,10 @@ input, select, textarea {
 			margin: 0;
 		}
 
-			.main > header h2 {
+			.main h2 {
 				font-size: 2.25em;
-				font-weight: 100;
+				/* color: red; */
+				font-weight: 300;
 				margin-bottom: 0;
 				/* align-items: left; */
 			}
@@ -2276,6 +2330,7 @@ input, select, textarea {
 			padding: 6em 0 6em 0;
 		}
 			/* dsd */
+			/* .main > .content h2 { */
 			/* .main > .content h2 {
 				font-size: 2.25em;
 				background-color: #000;
@@ -2387,7 +2442,7 @@ input, select, textarea {
 		/* Basic */
 
 			header, footer, h2, h3, h4, h5, h6, header > p {
-				/* text-align: center; */
+				text-align: center;
 			}
 
 		/* Sections/Article */
@@ -2439,7 +2494,7 @@ input, select, textarea {
 					}
 
 					.main > header br {
-						display: none;
+						/* display: none; */
 					}
 
 					.main > header p {
@@ -2527,7 +2582,7 @@ input, select, textarea {
 				padding: 3em 20px 3em 20px;
 			}
 
-				.main > header h2 {
+				.main  header h2 {
 					font-size: 1.5em;
 				}
 
