@@ -246,6 +246,11 @@ input, select, textarea {
 			text-align: center;
 		}
 
+		/* dsd */
+		.centered {
+			text-align: center;
+		}
+
 /* Container */
 
 	.container {
