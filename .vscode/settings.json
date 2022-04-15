@@ -16,5 +16,10 @@
             "command": "extension.execute",
             "priority": 4
         }
-    ]
+    ],
+    "[html]": {
+        "editor.guides.bracketPairsHorizontal": "active",
+        "editor.guides.bracketPairs": "active"
+    },
+    "search.useParentIgnoreFiles": true
 }
