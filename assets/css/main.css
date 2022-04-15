@@ -1541,8 +1541,11 @@ input, select, textarea {
 
 	.image {
 		position: relative;
-		display: inline-block;
+		/* display: inline-block; */
+		display: inline-flex;
+		/* border: 1px solid black; */
 		border: 0;
+		height: 100%;
 	}
 
 		.image:after {
@@ -1552,13 +1555,15 @@ input, select, textarea {
 			top: 0;
 			width: 100%;
 			height: 100%;
-			background: url("images/overlay.png");
+			/* background: url("images/overlay.png"); */
 		}
 
 		.image img {
 			display: block;
 			width: 100%;
 			border-radius: 0.5em;
+			align-self: center;
+			/* justify-self: center; */
 		}
 
 		.image.featured {
@@ -1568,8 +1573,13 @@ input, select, textarea {
 		}
 
 		.image.fit {
-			display: block;
+			/* display: block; */
 			width: 100%;
+			/* border: 1px solid red; */
+/* align-items: center; */
+			/* justify-self: center; */
+			/* align-items: center; */
+			/* vertical-align: b; */
 		}
 
 		.image.left {
@@ -1580,7 +1590,7 @@ input, select, textarea {
 		/* dsd */
 		.image.right {
 			float: right;
-			margin: 0 2em 2em 0;
+			margin: 2em 0 2em 0;
 		}
 
 		.image.centered {
@@ -2322,7 +2332,7 @@ input, select, textarea {
 				/* color: red; */
 				font-weight: 300;
 				margin-bottom: 0;
-				/* align-items: left; */
+				text-align: center;
 			}
 			
 			.main > header p {
@@ -2368,6 +2378,9 @@ input, select, textarea {
 				background: #fff;
 			}
 
+			h2.topichead {
+				text-align: left;
+			}
 /* Footer */
 
 	#footer {
@@ -2401,6 +2414,7 @@ input, select, textarea {
 			body, input, textarea, select {
 				font-size: 15pt;
 				line-height: 1.75em;
+				/* color: red; */
 			}
 
 	}
@@ -2494,13 +2508,13 @@ input, select, textarea {
 					padding: 3.5em 2em 3.5em 2em;
 				}
 
-					.main > header h2 {
+					.main  header h2 {
 						font-size: 1.85em;
 					}
 
-					.main > header br {
-						/* display: none; */
-					}
+					/* .main > header br {
+						display: none;
+					} */
 
 					.main > header p {
 						margin: 1.5em 0 0 0;
@@ -2513,6 +2527,11 @@ input, select, textarea {
 					.main > .content > .container > :last-child {
 						margin-bottom: 0 !important;
 					}
+
+			/* switch to centering when stacking */
+			h2.topichead {
+				text-align: center;
+			}
 
 		/* Footer */
 

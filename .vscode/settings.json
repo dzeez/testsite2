@@ -21,5 +21,6 @@
         "editor.guides.bracketPairsHorizontal": "active",
         "editor.guides.bracketPairs": "active"
     },
-    "search.useParentIgnoreFiles": true
+    "search.useParentIgnoreFiles": true,
+    "search.useGlobalIgnoreFiles": true
 }
