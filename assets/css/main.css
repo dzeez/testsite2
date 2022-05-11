@@ -1690,14 +1690,14 @@ input, select, textarea {
 			/* align-items: flex-end; */
 		}
 		
-		ul.menu li:first-child, #navbar menu>li:first-child {
+		ul.menu li:first-child, .navbar menu>li:first-child {
 			border-left: 0;
 			padding-left: 0;
 			margin-left: 0;
 		}
 		
 		/* dsd */
-		#navbar {
+		.navbar {
 			/* border: 1px solid black; */
 			display: inline-flex;
 			flex-wrap: wrap;
@@ -1715,25 +1715,25 @@ input, select, textarea {
 			font-size: 1.3rem;
 			color: #fff;
 		}
-		#navbar menu {
+		.navbar menu {
 			justify-content: flex-end;
 		}
-		#navbar a {
+		.navbar a {
 			border-bottom: none;
 			font-weight: 400;
 			transition: color 0.2s ease-in-out;
 		}
-		#navbar a:hover {
+		.navbar a:hover {
 			color: rgb(83, 83, 83);;
 		}
-		#navbar li {
+		.navbar li {
 			/* display: inline-block; */
 			/* line-height: 1em; */
 			border-left: solid 1px #e6e6e6;
 			padding: 0 0 0 0.5em;
 			margin: 0 0 0 0.5em;
 		}
-		#navbar h1 {
+		.navbar h1 {
 			align-self: center;
 			justify-self: flex-start;
 			/* display: none; */
@@ -2462,6 +2462,7 @@ input, select, textarea {
 
 			header, footer, h2, h3, h4, h5, h6, header > p {
 				text-align: center;
+				/* color: red; */
 			}
 
 		/* Sections/Article */
