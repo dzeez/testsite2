@@ -22,5 +22,13 @@
         "editor.guides.bracketPairs": "active"
     },
     "search.useParentIgnoreFiles": true,
-    "search.useGlobalIgnoreFiles": true
+    "search.useGlobalIgnoreFiles": true,
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
+    ]
 }
