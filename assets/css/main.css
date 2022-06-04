@@ -91,7 +91,7 @@ input, select, textarea {
 		font-family: 'Roboto', sans-serif;
 		font-weight: 300;
 		font-size: 17pt;
-		line-height: 1.75em;
+		line-height: 1.15em;
 		color: #888;
 		-webkit-text-stroke: 0.1px;
 	}
@@ -2313,13 +2313,15 @@ input, select, textarea {
 			/* z-index: -100; */
 			text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
 		}
-		
+		#name-subhead {
+			font-size: smaller;
+		}
 		#header header p {
 			margin-top: 1.25em;
 			font-weight: 100;
 			padding: 0;
 			font-size: 1.25em;
-			line-height: 1.5em;
+			/* line-height: 1.5em; */
 			text-align: center;
 		}
 
@@ -2385,7 +2387,8 @@ input, select, textarea {
 			}
 
 			.main > .content.style3 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #5f796b, #3a4e59, #2f394e);
+				/* background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #5f796b, #3a4e59, #2f394e); */
+				background-color: black;
 			}
 
 			.main > .content.style4 {
@@ -2448,7 +2451,7 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 15pt;
-				line-height: 1.75em;
+				/* line-height: 1.75em; */
 				/* color: red; */
 			}
 
@@ -2462,7 +2465,7 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 13pt;
-				line-height: 1.65em;
+				/* line-height: 1.65em; */
 			}
 
 		/* Feature Icon */
