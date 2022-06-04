@@ -90,9 +90,10 @@ input, select, textarea {
 		background: #F8F8F8;
 		font-family: 'Roboto', sans-serif;
 		font-weight: 300;
-		font-size: 17pt;
-		line-height: 1.15em;
-		color: #888;
+		/* font-size: 1.5em; */
+		font-size: large;
+		line-height: 1.3em;
+		color: #2d2d2d;
 		-webkit-text-stroke: 0.1px;
 	}
 
@@ -2450,7 +2451,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 15pt;
+				/* font-size: 15pt; */
 				/* line-height: 1.75em; */
 				/* color: red; */
 			}
@@ -2458,13 +2459,14 @@ input, select, textarea {
 	}
 
 /* Normal */
-
+/*  */
 	@media screen and (max-width: 1280px) {
 
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 13pt;
+				/* font-size: 13pt; */
+				/* font-size: medium; */
 				/* line-height: 1.65em; */
 			}
 
@@ -2592,7 +2594,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 11pt;
+				/* font-size: 11pt; */
 			}
 
 		/* Sections/Article */
