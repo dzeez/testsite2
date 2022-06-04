@@ -212,7 +212,7 @@ input, select, textarea {
 
 	p {
 		/* text-align: justify; */
-		hyphens: auto;
+		/* hyphens: auto; */
 		/* padding: 0.25em 0 0.5em 0; */
 	}
 
