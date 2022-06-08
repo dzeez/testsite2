@@ -9,10 +9,10 @@
 	<body class="is-preload">
 
 		<!-- Navbar -->
-		<header class="row">
+		<!-- <header class="row">
 			<nav class="navbar">
-				<!-- <span class="icon solid fa-plug">&nbsp;&nbsp;</span> -->
-				<span class="logo"><strong>ShaleTech </strong><br><span id="name-subhead">Industrial IoT Solutions</span></span>
+				<span class="icon solid fa-plug">&nbsp;&nbsp;</span>
+				<span class="logo"><strong>ShaleTech </strong><br><span id="xname-subhead">Industrial IoT Solutions</span></span>
 				<menu class="navbar">
 					<li>
 						<a href="#intro" class="scrolly">About</a>
@@ -24,8 +24,43 @@
 						<a href="#contact" class="scrolly">Contact</a>
 					</li>
 				</menu>
+				<ul class="menu">
+					<li>
+						<a href="#intro" class="scrolly">zAbout</a>
+					</li>
+					<li>
+						<a href="#platform" class="scrolly">Platform</a>
+					</li>
+					<li>
+						<a href="#contact" class="scrolly">Contact</a>
+					</li>
+				</ul>
 			</nav>
-		</header>
+		</header> -->
+		<!-- Navigation bar -->
+		<header class="top-header">
+			<!-- Logo -->
+			<!-- <span class="icon solid fa-plug">&nbsp;&nbsp;</span> -->
+			<span class="logo"><strong>ShaleTech </strong><br><span id="name-subhead">Industrial IoT Solutions</span></span>
+
+			<!-- Hamburger icon -->
+			<input class="side-menu" type="checkbox" id="side-menu" />
+			<label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+			<!-- Menu -->
+			<nav class="nav-menu">
+				<ul class="menu">
+					<li>
+						<a href="#intro" class="scrolly">About</a>
+					</li>
+					<li>
+						<a href="#platform" class="scrolly">Platform</a>
+					</li>
+					<li>
+						<a href="#contact" class="scrolly">Contact</a>
+					</li>
+	  </ul>
+	</nav>
+  </header>
 
 		<!-- Hero -->
 			<section id="header" class="dark">
@@ -75,7 +110,7 @@
 								<p>Our platform allows you to collect machine tool data, store, process, and analyze it, providing visualization of KPIs in a user-friendly dashboard</p>
 							</div>
 
-							<div class="col-4 col-12-narrow">
+							<div class="col-4 col-12-mobile">
 								<section>
 									<span class="feature-icon"><span class="icon solid fa-plug"></span></span>
 									<header>
@@ -84,7 +119,7 @@
 									<p>Connect machines to edge hardware, enabling data acquisition and storage.</p>
 								</section>
 							</div>
-							<div class="col-4 col-12-narrow">
+							<div class="col-4 col-12-mobile">
 								<section>
 									<span class="feature-icon"><span class="icon solid fa-database"></span></span>
 									<header>
@@ -93,7 +128,7 @@
 									<p>Extract, translate, and load data securely in a data lake for further analysis.</p>
 								</section>
 							</div>
-							<div class="col-4 col-12-narrow">
+							<div class="col-4 col-12-mobile">
 								<section>
 									<span class="feature-icon"><span class="icon solid fa-chart-line"></span></span>
 									<header>
@@ -112,7 +147,7 @@
 				<header>
 					<div class="container">
 						<div class="row">
-							<div class="col-5 col-12-narrow">
+							<div class="col-5 col-12-mobile">
 								<h2 class="topichead">Monitor key production metrics</h2>
 								<p>By monitoring machine health and performance, your maintenance team can be alerted to impending failures before they
 									occur. Being equipped with these insights can empower you to shift from reactive maintenance—being forced to fix a
@@ -123,7 +158,7 @@
 									<li>Predictive maintenance</li>
 								</ul>
 							</div>
-							<div class="col-7 col-12-narrow"><span class="image fit">
+							<div class="col-7 col-12-mobile"><span class="image fit">
 								<img src="./images/metric-dashboard-angle_stephen-dawson-qwtCeJ5cLYs-unsplash.jpg" alt="metric dashboard at angle">
 							</span>
 							</div>
@@ -135,11 +170,11 @@
 				<div class="content dark style1">
 					<div class="container">
 						<div class="row">
-							<div class="col-7 col-12-narrow">
+							<div class="col-7 col-12-mobile">
 								<span class="image fit">
 									<img  src="./images/failure-warning-dashboard_Screen Shot 2022-04-10 at 12.34.42 AM.png" alt="warning dashboard screenshot">
 								</span></div>
-								<div class="col-5 col-12-narrow">
+								<div class="col-5 col-12-mobile">
 									<header>										
 										<h2 class="topichead">Detect failures before they occur</h2>
 									</header>
@@ -160,7 +195,7 @@
 				<header>
 					<div class="container">
 						<div class="row">
-							<div class="col-5 col-12-narrow">
+							<div class="col-5 col-12-mobile">
 								<h2 class="topichead">Enhance process flow</h2>
 								<p>Our platform provides you with operational intelligence and solutions that allow you to optimize production
 									processes, maximizing throughput and improving your overall productivity.</p>
@@ -171,7 +206,7 @@
 									<li>Quality tracking: via machine tablet operator input</li>
 								</ul>
 							</div>
-							<div class="col-7 col-12-narrow"><span class="image fit">
+							<div class="col-7 col-12-mobile"><span class="image fit">
 								<img src="./images/cnc-mill-bit_daniel-smyth-PcvlAQKAPXk-unsplash.jpg" alt="cnc tool bit milling workpiece">
 							</span>
 							</div>
@@ -179,7 +214,7 @@
 					</div>
 				</header>
 			</section>
-<hr>
+
 			<!-- Contact section -->
 			<section id="contact" class="main">
 				<div class="content style3 dark">
