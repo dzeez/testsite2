@@ -1685,7 +1685,7 @@ input, select, textarea {
 .top-header {
   background-color: var(--white);
   box-shadow: 1px 1px 5px 0px var(--gray);
-  position: relative;
+  position: absolute;
   z-index: 1;
   top: 0;
   width: 100%;
@@ -1694,11 +1694,7 @@ input, select, textarea {
   justify-content: space-between;
   align-items: center;
   /* margin-top: 0.5rem; */
-  padding-top: 0.2rem;
-  padding: 0.2rem;
-  /* padding-right: 1rem; */
-  /* max-height: fit-content;
-  transition: all 0.5s ease-out; */
+  padding: 0.3rem 0.5rem;
 }
 /* Logo */
 .logo {
@@ -1776,9 +1772,10 @@ ul.menu {
   top: -5px;
 }
 
-.side-menu {
-  /* display: none; */
-} /* Hide checkbox */
+/* .side-menu {
+  display: none;
+}  */
+/* Hide checkbox */
 
 /* Toggle menu icon */
 .side-menu:checked ~ nav {
