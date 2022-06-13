@@ -1834,7 +1834,6 @@ ul.menu {
 	  display: flex;
 	  justify-content: space-between;
 	  align-items: center;
-	  border: 1px solid black;
   }
   .menu li {
 	/* float: left; */
