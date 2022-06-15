@@ -1771,10 +1771,21 @@ ul.menu {
 .hamb-line::after {
   top: -5px;
 }
-
+/* button: */
+.side-menu {
+  /* display: none; */
+  /* visibility: hidden; */
+  color: transparent;
+  position: absolute;
+  right: 12px;
+  z-index: -999;
+}
 /* .side-menu {
-  display: none;
-}  */
+	outline: 2px dashed rgb(241, 68, 66);
+	outline-style: auto;
+	width: 24px;
+	height: 20px;
+} */
 /* Hide checkbox */
 
 /* Toggle menu icon */
@@ -1848,7 +1859,7 @@ ul.menu {
 
 		#learn-more {
 			margin-top: 2rem;
-			margin-bottom: 0px;
+			margin-bottom: 0;
 			padding: 0;
 			height: 0.4vh;
 		}
